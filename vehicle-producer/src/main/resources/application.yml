@@ -1,4 +1,6 @@
 spring:
+   app:
+      name: vehicle-producer
    kafka:
       bootstrap-servers: kafka:9092
       producer:
