@@ -1,0 +1,5 @@
+D:\Project\eclipse-workspace\vehicle-producer\src\main\java\com\example\vehicleproducer\VehicleProducerApplication.java
+D:\Project\eclipse-workspace\vehicle-producer\src\main\java\com\example\vehicleproducer\config\KafkaProducerConfig.java
+D:\Project\eclipse-workspace\vehicle-producer\src\main\java\com\example\vehicleproducer\model\VehicleLocation.java
+D:\Project\eclipse-workspace\vehicle-producer\src\main\java\com\example\vehicleproducer\scheduler\VehicleLocationScheduler.java
+D:\Project\eclipse-workspace\vehicle-producer\src\main\java\com\example\vehicleproducer\service\VehicleLocationService.java

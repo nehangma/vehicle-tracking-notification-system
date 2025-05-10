@@ -1,0 +1,43 @@
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+**/mvnw
+**/mvnw.cmd
+.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot
+application.yml
+application-*.yml
+bootstrap.yml
+bootstrap-*.yml
+
+# Eclipse/IntelliJ IDEA
+*.iml
+.idea/
+*.ipr
+*.iws
+*.project
+.classpath
+.settings/
+
+# Docker
+**/Dockerfile
+**/docker-compose.yml
+**/docker-compose*.yml
+**/docker/
+**/entrypoint.sh
+
+# Logs
+logs/
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db

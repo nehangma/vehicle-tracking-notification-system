@@ -1,0 +1,15 @@
+spring:
+  data:
+   mongodb:
+    uri: mongodb://root:root@mongo:27017/vehicle_db?authSource=admin
+  kafka:
+    bootstrap-servers: kafka:9092
+
+
+vehicle:
+  kafka:
+    topic: vehicle-locations
+server:
+  port: 8081
+email:
+  to: wangyalsam@gmail.com

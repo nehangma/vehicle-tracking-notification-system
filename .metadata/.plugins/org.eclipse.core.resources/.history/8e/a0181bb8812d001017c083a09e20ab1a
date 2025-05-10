@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: notification-service
+  kafka:
+    bootstrap-servers: kafka:9092
+    consumer:
+      group-id: notification-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    debug: true
+    username: nehangma17@gmail.com
+    password: mdxf bpwj kaef slom
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+logging:
+  level:
+    root: INFO
+email:
+  from: nehangma17@gmail.com
+server:
+  port: 8082
+eureka:
+  client:
+    service-url:
+      defaultZone: ${SPRING_CLOUD_EUREKA_CLIENT_SERVICEURL_DEFAULTZONE}
